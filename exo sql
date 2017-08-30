@@ -1,0 +1,9 @@
+1) SELECT * FROM Employees
+
+2) SELECT ProductID, ProductName FROM Products
+
+3) SELECT CustomerName, Orders.* FROM Orders, Customers WHERE Orders.CustomerID = Customers.CustomerID
+
+6) INSERT INTO Employees VALUES (NULL, 'Dubois', 'Vassily', '1988-06-16', 'myPic.png', 'Will be graduate from Code Académie')
+
+7) INSERT INTO Employees (LastName, FirstName, BirthDate, Notes) VALUES ('Dupont', 'Jean', '1988-06-16', 'Who that guy is?')
